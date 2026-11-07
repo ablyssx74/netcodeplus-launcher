@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "app": {
+    "windows": [
+      {
+        "title": "UT4 Community Launcher",
+        "width": 1280,
+        "height": 860,
+        "minWidth": 900,
+        "minHeight": 620,
+        "resizable": true,
+        "maximized": false,
+        "decorations": false,
+        "dragDropEnabled": false,
+        "center": true,
+        "additionalBrowserArgs": "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection --disable-gpu --disable-gpu-compositing --no-sandbox"
+      }
+    ]
+  }
+}
